@@ -3,11 +3,10 @@
 
 * SubjectId - An identifier of the person who carried out the experiment.
 * ActivityLabel - Label for the activity performed. Options: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-* tBodyAcc-mean-X - 
-* tBodyAcc-mean-X
-* tBodyAcc-mean-Y
-* tBodyAcc-mean-Z
-* tBodyAcc-std-X
+* tBodyAcc-mean-X - Mean body motion acceleration component. X axis. Time Domain. 
+* tBodyAcc-mean-Y - Mean body motion acceleration component. Y axis. Time Domain. 
+* tBodyAcc-mean-Z - Mean body motion acceleration component. Z axis. Time Domain. 
+* tBodyAcc-std-X - Standard deviation of body motion acceleration component. X axis. Time Domain. 
 * tBodyAcc-std-Y
 * tBodyAcc-std-Z
 * tGravityAcc-mean-X
