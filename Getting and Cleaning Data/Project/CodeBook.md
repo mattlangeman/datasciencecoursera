@@ -5,6 +5,7 @@ Factor            | Description
 -------------     | -------------
 SubjectId         | An identifier of the person who carried out the experiment.
 ActivityLabel     | Label for the activity performed. Options: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+&nbsp; | &nbsp;
 <b>Time&nbsp;domain&nbsp;variables</b> |
 tBodyAcc&#8209;mean&#8209;X <br/> tBodyAcc&#8209;mean&#8209;Y <br/>  tBodyAcc&#8209;mean&#8209;Z | Mean of body motion acceleration. X&#8209;Y&#8209;Z directional components. 
 tBodyAcc&#8209;std&#8209;X <br/> tBodyAcc&#8209;std&#8209;Y <br/> tBodyAcc&#8209;std&#8209;Z | Standard deviation of body motion acceleration. X&#8209;Y&#8209;Z directional components. 
@@ -26,7 +27,8 @@ tBodyGyroMag&#8209;mean | Mean of angular acceleration magnitude.
 tBodyGyroMag&#8209;std | Standard deviation of angular acceleration magnitude.
 tBodyGyroJerkMag&#8209;mean | Mean of angular acceleration jerk magnitude.
 tBodyGyroJerkMag&#8209;std | Standard deviation of angular acceleration jerk magnitude.
-<b>Frequency&nbsp;domain&nbsp;variables</b> |
+&nbsp; | &nbsp;
+<b>Frequency&nbsp;domain&nbsp;variables</b> | Using Fast Fourier Transform (FFT) applied to some of above signals
 fBodyAcc&#8209;mean&#8209;X <br/> fBodyAcc&#8209;mean&#8209;Y <br/>  fBodyAcc&#8209;mean&#8209;Z | Mean of body motion acceleration. X&#8209;Y&#8209;Z directional components. 
 fBodyAcc&#8209;std&#8209;X <br/> fBodyAcc&#8209;std&#8209;Y <br/> fBodyAcc&#8209;std&#8209;Z | Standard deviation of body motion acceleration. X&#8209;Y&#8209;Z directional components. 
 fBodyAccJerk&#8209;mean&#8209;X <br/> fBodyAccJerk&#8209;mean&#8209;Y <br/> fBodyAccJerk&#8209;mean&#8209;Z | Mean of body acceleration jerk. X&#8209;Y&#8209;Z directional components. 
